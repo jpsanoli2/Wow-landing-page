@@ -1,0 +1,72 @@
+/* General */
+body {
+    font-family: 'Almendra Display', serif;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+/* Header */
+header.wow-header {
+    background: url('img/paisaje.webp') no-repeat center center/cover;
+    height: 75vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.wow-header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+header .container {
+    z-index: 2;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+#features i {
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+
+.gallery-section {
+    background: linear-gradient(to right, #141414, #1e1e1e);
+}
+
+.gallery-section img {
+    border: 3px solid #ffd700;
+    transition: transform 0.3s ease;
+}
+
+.gallery-section img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #ffd700;
+}
+
+.bg-warning {
+    background-color: #ffd700 !important;
+}
+
+.bg-warning .btn-dark {
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.bg-warning .btn-dark:hover {
+    background-color: #fff;
+    color: #000;
+}
